@@ -1,0 +1,40 @@
+{
+  "name": "@jordanbonaldi/indicatorsapi",
+  "version": "0.0.0",
+  "scripts": {
+    "watch": "nodemon",
+    "build": "rimraf ./lib && tsc",
+    "start": "npm run build && node lib/index.js",
+    "prepublish": "npm run build && npm-auto-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanbonaldi/DiscordAPI.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [],
+  "author": "Jordan Bonaldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanbonaldi/IndicatorsAPI/issues"
+  },
+  "homepage": "https://github.com/jordanbonaldi/IndicatorsAPI#readme",
+  "dependencies": {
+    "@types/node": "^13.9.0",
+    "@jordanbonaldi/databasecollector": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
