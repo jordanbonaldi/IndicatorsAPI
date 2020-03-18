@@ -1,6 +1,6 @@
 {
   "name": "@jordanbonaldi/indicatorsapi",
-  "version": "0.0.5",
+  "version": "0.0.15",
   "scripts": {
     "watch": "nodemon",
     "build": "rimraf ./lib && tsc",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jordanbonaldi/DiscordAPI.git"
+    "url": "git+https://github.com/jordanbonaldi/IndicatorsAPI.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/jordanbonaldi/IndicatorsAPI#readme",
   "dependencies": {
-    "@jordanbonaldi/databasecollector": "latest",
     "@types/node": "^13.9.0",
     "technicalindicators": "^3.1.0"
   },

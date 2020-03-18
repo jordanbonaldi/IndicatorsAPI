@@ -1,7 +1,6 @@
 import {EntryType, TradeTypes} from "./TradeTypes";
-import {Data} from "@jordanbonaldi/databasecollector";
 
-export default interface DissociatePotentialTrade extends Data {
+export default interface DissociatePotentialTrade {
     entryType: EntryType,
     entry: number,
     stop: number,
