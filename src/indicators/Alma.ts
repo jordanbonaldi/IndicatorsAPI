@@ -30,5 +30,5 @@ export default function (input: AlmaInput): number[] {
     for (let candleIndex: number = input.values.length - input.period; candleIndex >= 0; candleIndex--)
         almaValues.push(almaCandle(input, candleIndex));
 
-    return almaValues.reverse();
+    return almaValues;
 }
