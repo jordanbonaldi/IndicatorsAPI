@@ -1,6 +1,5 @@
 import Trade from "./trade/Trade";
-import BacktestParams from "./backtest/BacktestParams";
-import {TradeTypes, EntryType} from "./trade/TradeTypes";
+import { TradeTypes, EntryType } from "./trade/TradeTypes";
 
 import {
     CandleData, CandleList,
@@ -91,7 +90,6 @@ export function reverseIndex<T>(array: T[], index: number = 0): T {
 
 export {
     Trade as Trade,
-    BacktestParams as BacktestParams,
     TradeTypes as TradeTypes,
     EntryType as EntryType,
     Zlema,

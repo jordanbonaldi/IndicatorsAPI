@@ -1,4 +1,4 @@
-import {EntryType, TradeTypes} from "./TradeTypes";
+import { EntryType, TradeTypes } from "./TradeTypes";
 
 export default interface Trade {
     type: TradeTypes,
