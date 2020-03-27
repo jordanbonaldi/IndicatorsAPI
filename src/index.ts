@@ -1,5 +1,5 @@
-import Trade from "./trade/Trade";
-import {TradeTypes, EntryType} from "./trade/TradeTypes";
+import Trade from "../../StrategiesCreator/src/entity/Trade";
+import {TradeTypes, EntryType} from "../../StrategiesCreator/src/entity/TradeTypes";
 
 import {
     CandleData, CandleList,
