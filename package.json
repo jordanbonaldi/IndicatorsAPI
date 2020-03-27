@@ -1,6 +1,10 @@
 {
   "name": "@jordanbonaldi/indicatorsapi",
+<<<<<<< HEAD
   "version": "0.0.17",
+=======
+  "version": "0.1.4",
+>>>>>>> eb005e24509bf392056540d969dfafcf396bf795
   "scripts": {
     "watch": "nodemon",
     "build": "rimraf ./lib && tsc",
@@ -23,6 +27,7 @@
   "homepage": "https://github.com/jordanbonaldi/IndicatorsAPI#readme",
   "dependencies": {
     "@types/node": "^13.9.0",
+    "npm-auto-version": "^1.0.0",
     "technicalindicators": "^3.1.0"
   },
   "devDependencies": {
