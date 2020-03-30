@@ -1,6 +1,6 @@
 {
   "name": "@jordanbonaldi/indicatorsapi",
-  "version": "0.1.7",
+  "version": "0.1.12",
   "scripts": {
     "watch": "nodemon",
     "build": "rimraf ./lib && tsc",
